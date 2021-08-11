@@ -1,15 +1,29 @@
 body {
-    margin: 150;
+    margin: 50px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #2E282C;
 }
 
 header {
-    margin:150;
+    margin:50px;
+    font-family: "Source Sans Pro", sans-serif;
 
 }
 
-figure {
-    margin: 0;
-    display: block;
+h1 {
+    
+    line-height: 1.166666667;
+    font-weight: bold;
+}
+
+h2 {
+    color: darkgreen;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h3 {
+    color: darkgreen;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .blog-text {
@@ -18,42 +32,16 @@ figure {
     font-family: "Source Sans Pro", sans-serif;
     color: #2E282C;
 }
-
-.blog-text h1,
-.blog-text h2,
-.blog-text h3 {
-    color: darkgreen;
-    line-height: 1.166666667;
-    font-weight: bold;
-}
-
 .blog-text ul,
 .blog-text ol {
     list-style-type: disc;
     padding-left: 40px;
 }
 
-.blog-text h1 {
-    font-size: 48px;
-    margin-bottom: 56px;
-}
-
-.blog-text h2 {
-    font-size: 36px;
-    margin-top: 84px;
-    margin-bottom: 21px;
-}
-
-.blog-text h3 {
-    font-size: 28px;
-    margin-top: 64px;
-    margin-bottom: 16px;
-}
-
 .background {
     padding-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 10px;
     background-color:rgba(211, 254, 255, 0.418);
 }
