@@ -1,27 +1,33 @@
 body {
     margin: 50px;
     font-family: "Source Sans Pro", sans-serif;
-    color: #2E282C;
+    color: #000000;
 }
 
 header {
     margin:50px;
     font-family: "Source Sans Pro", sans-serif;
-
+    color: #21243D;
 }
 
 h1 {
     
     line-height: 1.166666667;
     font-weight: bold;
+    color: #21243D;
 }
 
 h2 {
-    color: darkgreen;
-    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    color: #21243D;
 }
 
 h3 {
+    color: #21243D;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h2 {
     color: darkgreen;
     font-family: "Source Sans Pro", sans-serif;
 }
@@ -32,10 +38,10 @@ h3 {
     font-family: "Source Sans Pro", sans-serif;
     color: #2E282C;
 }
-.blog-text ul,
-.blog-text ol {
-    list-style-type: disc;
-    padding-left: 40px;
+ul.a {
+    list-style-type: circle;
+    padding-left: 0px;
+    color: #52575C;
 }
 
 .background {
@@ -43,5 +49,11 @@ h3 {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 10px;
-    background-color:rgba(211, 254, 255, 0.418);
+    background-color: #EDF7FA;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 }
