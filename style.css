@@ -1,15 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
 body {
-    margin: 50px;
+    margin: 146px;
     font-family: "Source Sans Pro", sans-serif;
     color: #000000;
 }
 
 header {
-    margin:50px;
+    /*margin:100px;*/
     font-family: "Source Sans Pro", sans-serif;
     color: #21243D;
+    font-size: 26px;
+    line-height: 30px;
+    left: 148px;
+    top: 228px;
 }
 
+.phead {
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+    text-align: justify;
+}
+
+/* footer */
+footer {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #21243D;
+    text-align: center;
+}
+
+#main {
+    /*width: auto;
+    height: auto;*/
+    display: flex;
+    justify-content: space-around;
+  }
+  
+/*#main div {
+    width: auto;
+    height: auto;
+}*/
+
+/* section */
 h1 {
     /*line-height: 1.166666667;*/
     font-weight: bolder;
@@ -19,40 +52,109 @@ h1 {
 h2 {
     font-weight: bold;
     color: #21243D;
+    font-weight: 700;
 }
 
 h3 {
     color: #21243D;
     font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
 }
 
 h4 {
-    color: #21243D;
+    color: darkgreen;
     font-family: "Source Sans Pro", sans-serif;
 }
 
-.blog-text {
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #2E282C;
+.in {
+    margin-left: 30px;
 }
-ul.a {
-    list-style-type: circle;
-    padding-left: 20px;
-    color: #52575C;
+
+/*img project */
+img {
+    width: 246px;
+    border-radius: 6px;
 }
 
 .background {
     padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 10px;
     background-color: #EDF7FA;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
+/* box experience */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* box education */
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-container1 > div {
+    margin: 10px;
+    padding: 20px;
+}
+
+.listedu {
+    /*list-style-type: circle;*/
+    padding-left: 20px;
+    color: #52575C;
+}
+
+/* flex2 
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-container2 > div {
+    margin: 10px;
     padding: 10px;
 }
+*/
+
+/* flex 3
+.flex-container3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container3 > div {
+    font-size: 16px;
+    color: #52575C;
+    padding: 20px;
+}*/
+
+/* round bg year */
+.year {
+    background: #142850;
+    border-radius: 16px;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+/* profile bg */
+.pback {
+    background-color: #EDF7FA;
+    border-radius: 50%;
+}
+
+
