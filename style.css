@@ -11,9 +11,8 @@ header {
 }
 
 h1 {
-    
-    line-height: 1.166666667;
-    font-weight: bold;
+    /*line-height: 1.166666667;*/
+    font-weight: bolder;
     color: #21243D;
 }
 
@@ -27,8 +26,8 @@ h3 {
     font-family: "Source Sans Pro", sans-serif;
 }
 
-h2 {
-    color: darkgreen;
+h4 {
+    color: #21243D;
     font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -40,7 +39,7 @@ h2 {
 }
 ul.a {
     list-style-type: circle;
-    padding-left: 0px;
+    padding-left: 20px;
     color: #52575C;
 }
 
