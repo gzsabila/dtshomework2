@@ -1,26 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
 body {
-    margin: 146px;
+    margin: 140px;
+    padding: 20px;
     font-family: "Source Sans Pro", sans-serif;
+    text-align: justify;
     color: #000000;
 }
 
 header {
-    /*margin:100px;*/
+    margin: 30px;
     font-family: "Source Sans Pro", sans-serif;
     color: #21243D;
     font-size: 26px;
     line-height: 30px;
-    left: 148px;
-    top: 228px;
+}
+
+.center {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .phead {
     font-size: 16px;
     line-height: 23px;
     color: #21243D;
-    text-align: justify;
+    margin-right: 140px;
 }
 
 /* footer */
@@ -28,31 +38,32 @@ footer {
     font-family: "Source Sans Pro", sans-serif;
     color: #21243D;
     text-align: center;
+    padding: 50px;
 }
 
-#main {
-    /*width: auto;
-    height: auto;*/
-    display: flex;
-    justify-content: space-around;
-  }
-  
-/*#main div {
-    width: auto;
-    height: auto;
-}*/
+.btn {
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(235, 235, 235);
+}
 
 /* section */
 h1 {
-    /*line-height: 1.166666667;*/
-    font-weight: bolder;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
     color: #21243D;
 }
 
 h2 {
-    font-weight: bold;
-    color: #21243D;
+    font-size: 24px;
     font-weight: 700;
+    line-height: 25px;
+    color: #21243D;
 }
 
 h3 {
@@ -70,75 +81,56 @@ h4 {
     margin-left: 30px;
 }
 
-/*img project */
-img {
-    width: 246px;
-    border-radius: 6px;
+.in2 {
+    padding-left: 10px;
 }
 
-.background {
+/* box contact & edu */
+#background {
     padding-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
     padding-bottom: 10px;
     background-color: #EDF7FA;
 }
 
-/* box experience */
+.leftbox {
+    width: 300px;
+}
+
+.gray {
+    padding-left: 20px;
+    color: #52575C;
+}
+
+/* flexbox */
 .flex-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: no-wrap;
     margin-right: 100px;
 }
 
 .flex-container > div {
     margin: 10px;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 16px;
 }
 
-/* box education */
 .flex-container1 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
-.flex-container1 > div {
-    margin: 10px;
-    padding: 20px;
-}
-
-.listedu {
-    /*list-style-type: circle;*/
-    padding-left: 20px;
-    color: #52575C;
-}
-
-/* flex2 
 .flex-container2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.flex-container2 > div {
-    margin: 10px;
-    padding: 10px;
-}
-*/
-
-/* flex 3
-.flex-container3 {
     display: flex;
     flex-direction: row;
 }
 
-.flex-container3 > div {
-    font-size: 16px;
-    color: #52575C;
-    padding: 20px;
-}*/
+/* project image*/
+.project {
+    width: 246px;
+    border-radius: 6px;
+}
 
 /* round bg year */
 .year {
